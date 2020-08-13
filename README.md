@@ -1,4 +1,5 @@
-# Value of Function Calculator 
+# Value of Function Calculator!
+# (함숫값 계산기!)
 
 ```
 1 2 3 4 5 
