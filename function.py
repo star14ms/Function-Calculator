@@ -6,7 +6,7 @@ def f(x): # x의 값이 먼저 정의되어 인자로 받을 수 있어야 함
 
   print('Type the coefficients for each term in descending order') # (각 항의 계수를 내림차순으로 입력해라)
   terms = input('Coefficients : ').split() # (Coefficients: 계수)
-  if True_rational_num_list(terms) == False: # 유리수가 아니면 초기화
+  if isTrue_rational_num_list(terms) == False: # 유리수가 아니면 초기화
     return 'error: Not rational num!'
   terms = Change_strs_fractions(terms) # 유리수면 분수꼴로 변환
 
@@ -36,7 +36,7 @@ while True:
   print('ㅡ' * 16)
 
   x = input('x = ') # x의 값 입력받고, 
-  if True_rational_num(x) == False: # 유리수가 아니면 초기화
+  if isTrue_rational_num(x) == False: # 유리수가 아니면 초기화
     print('error: Not rational num!'); continue
   x = Change_str_fraction(x) # 유리수면 분수꼴로 변환
 
