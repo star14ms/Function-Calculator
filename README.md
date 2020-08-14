@@ -5,4 +5,4 @@
 1 2 3 4 5 
 # x^4 + 2x^3 + 3x^2 + 4x + 5
 ```
-[![Run on Repl.it](https://repl.it/badge/github/star14ms/function)](https://repl.it/github/star14ms/function)
+[![Run on Repl.it](https://repl.it/badge/github/star14ms/Value-of-Function-Calculator)](https://repl.it/github/star14ms/Value-of-Function-Calculator)
